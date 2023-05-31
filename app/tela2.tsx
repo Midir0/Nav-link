@@ -5,8 +5,8 @@ import { Link } from "expo-router";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.Titulo}>oi</Text>
-      <Link href="/tela1">Ira para a tela 1</Link>
+      <Text style={styles.Titulo}>Como esta?</Text>
+      <Link href="/">Voltar ao Home</Link>
       <StatusBar style="auto" />
     </View>
   );
